@@ -10,8 +10,8 @@ app.use(cors());
 app.use(cors({origin: "*" }));
 
 
-app.get('/', function(req, res){
-    res.send('Hello from server');
+app.get('/',cors(), function(req, res){
+    res.send('Hello from server this is fitted bedrooms');
 })
 
 app.post('/en', async function(req, res)  {
@@ -47,6 +47,6 @@ app.post('/en', async function(req, res)  {
 
 })
 
-app.listen(PORT, function(){
-    console.log("server running on localhost:" + PORT);
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
