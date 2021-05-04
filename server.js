@@ -14,7 +14,7 @@ app.get('/',cors(), function(req, res){
     res.send('Hello from server this is fitted bedrooms');
 })
 
-app.post('/en', async function(req, res)  {
+app.post('/', async function(req, res)  {
     const {name}= req.body;
     const {email}= req.body;
     const {phone}= req.body;
