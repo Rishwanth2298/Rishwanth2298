@@ -11,7 +11,7 @@ app.use(cors({origin: "*" }));
 
 
 app.get('/',cors(), function(req, res){
-    res.send('Hello from server this is fitted bedrooms');
+    res.send('Hello fitted bedrooms');
 })
 
 app.post('/', async function(req, res)  {
@@ -27,7 +27,7 @@ app.post('/', async function(req, res)  {
         secure: false, // true for 465, false for other ports
         auth: {
           user: 'rishwanths2298a@gmail.com',
-          pass: 'suji2298a'
+          pass: 'Suji2298'
         },
       });
 
