@@ -33,7 +33,7 @@ app.post('/', async function(req, res)  {
 
       const msg ={
         
-        from:  '"Brag tech" <rishwanths2298a@gmail.com>', // sender address
+        from:  '"Fitted Bedrooms" <rishwanths2298a@gmail.com>', // sender address
         to: 'rishwanths2298a@gmail.com', // list of receivers
       
         subject: "Angular Bragtech Form", // Subject line
