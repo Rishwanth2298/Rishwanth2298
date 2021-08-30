@@ -36,7 +36,7 @@ app.post('/', async function(req, res)  {
         from:  '"Fitted Bedrooms" <rishwanths2298a@gmail.com>', // sender address
         to: 'rishwanths2298a@gmail.com', // list of receivers
       
-        subject: "Angular Bragtech Form", // Subject line
+        subject: "Angular Fitted Bedrooms Form", // Subject line
         text: "Contact Form ", // plain text body
         html: `Name: ${name} , Mail id: ${email} , Mobile Number: ${phone} , Message: ${message}`,
        
